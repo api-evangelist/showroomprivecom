@@ -1,8 +1,25 @@
 aid: showroomprivecom
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/showroomprivecom.png
 name: Showroomprive.com
-description: 'Showroomprive.com is a company surfaced as a portfolio company of accel and added to the
-  API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Showroomprive.com is a French online private-sales (flash-sales) e-commerce
+  platform operated by Showroomprive.com SAS, a subsidiary of SRP Groupe SA, based in
+  La Plaine Saint-Denis. It sells discounted apparel, beauty, home, sports, and travel
+  products from major brands, and also runs a third-party seller marketplace. The company
+  exposes a private marketplace / seller API reached through partner onboarding and
+  surfaced by third-party integration platforms such as ChannelEngine and Commercium,
+  but it publishes no public developer portal, API documentation, or OpenAPI. Added to
+  the API Evangelist network as an Accel portfolio lead.'
 url: https://raw.githubusercontent.com/api-evangelist/showroomprivecom/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- E-Commerce
+- Retail
+- Marketplace
+- Fashion
+- Flash Sales
+- France
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/showroomprivecom-domain-security.yml
 - type: Website
   url: http://www.showroomprive.com
+- type: PrivacyPolicy
+  url: https://www.showroomprive.com/politique_confidentialite.aspx
+- type: TermsOfService
+  url: https://www.showroomprive.com/contratcgv.aspx
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
